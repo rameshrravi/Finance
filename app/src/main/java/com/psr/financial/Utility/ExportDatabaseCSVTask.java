@@ -47,7 +47,7 @@ import java.util.Map;
 
 public class ExportDatabaseCSVTask {
 
-    String path = "/Android/media/com.psr.financial/"
+    String path = "/Android/media/com.psr.financial/";
     Context context;
 
     public ExportDatabaseCSVTask(Context context) {
@@ -79,7 +79,7 @@ public class ExportDatabaseCSVTask {
 //        } else {
 //            return Environment.getExternalStorageDirectory();
 //        }
-        File folder = new File(Environment.getExternalStorageDirectory().toPath() + path)
+        File folder = new File(Environment.getExternalStorageDirectory().getPath() + path);
         if (!folder.exists()) {
             folder.mkdirs();
         }
