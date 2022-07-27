@@ -47,6 +47,7 @@ import java.util.Map;
 
 public class ExportDatabaseCSVTask {
 
+    String path = "/Android/media/com.psr.financial/"
     Context context;
 
     public ExportDatabaseCSVTask(Context context) {
@@ -66,6 +67,7 @@ public class ExportDatabaseCSVTask {
             showAlertDialogButtonClicked(null, customers);
         }
     }
+
     public File filePath() {
         String path = File.separator + CustomerDetailsActivity.FOLDER_NAME;
         return new File(directoryPath() + path);
@@ -77,8 +79,14 @@ public class ExportDatabaseCSVTask {
 //        } else {
 //            return Environment.getExternalStorageDirectory();
 //        }
-        return Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
+        File folder = new File(Environment.getExternalStorageDirectory().toPath() + path)
+        if (!folder.exists()) {
+            folder.mkdirs();
+        }
+        return folder;
+        //  return Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
     }
+
     public boolean isFolderAlreadyCreated() {
         // File folder = new File(Environment.getExternalStorageDirectory() + File.separator + CustomerDetailsActivity.FOLDER_NAME);
         File file = filePath();
@@ -99,7 +107,7 @@ public class ExportDatabaseCSVTask {
         builder.setTitle("Select");
 
         // set the custom layout
-        final View customLayout = ((Activity)context).getLayoutInflater().inflate(R.layout.custom_file_selection_layout, null);
+        final View customLayout = ((Activity) context).getLayoutInflater().inflate(R.layout.custom_file_selection_layout, null);
         builder.setView(customLayout);
 
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -219,7 +227,7 @@ public class ExportDatabaseCSVTask {
 
     void createAllCustomerExcelSheet(List<CustomerBean> customers, boolean isExcel) {
         HSSFWorkbook workbook = new HSSFWorkbook();
-        HSSFSheet firstSheet = workbook.createSheet( " All_Customer_Sheet");
+        HSSFSheet firstSheet = workbook.createSheet(" All_Customer_Sheet");
         HSSFRow rowA = firstSheet.createRow(0);
         rowA.createCell(0).setCellValue(new HSSFRichTextString("Serial No"));
         rowA.createCell(1).setCellValue(new HSSFRichTextString("Created On"));
@@ -234,14 +242,14 @@ public class ExportDatabaseCSVTask {
         rowA.createCell(10).setCellValue(new HSSFRichTextString("Last Payment Amount"));
 
         List<HSSFRow> rows = new ArrayList<>();
-        for (int i=0;i<customers.size();i++) {
+        for (int i = 0; i < customers.size(); i++) {
             HSSFRow rowB = firstSheet.createRow(1 + i);
             rows.add(rowB);
         }
 
-        for (int i=0;i<customers.size();i++) {
+        for (int i = 0; i < customers.size(); i++) {
             CustomerBean customer = customers.get(i);
-            rows.get(i).createCell(0).setCellValue(new HSSFRichTextString(String.valueOf(i+1)));
+            rows.get(i).createCell(0).setCellValue(new HSSFRichTextString(String.valueOf(i + 1)));
             rows.get(i).createCell(1).setCellValue(new HSSFRichTextString(Utilities.getDateStringFromTimeStamp(customer.getCreatedOn(), null)));
             rows.get(i).createCell(2).setCellValue(new HSSFRichTextString(customer.getName()));
             rows.get(i).createCell(3).setCellValue(new HSSFRichTextString(customer.getPhone()));
@@ -262,7 +270,7 @@ public class ExportDatabaseCSVTask {
         try {
             String filePath = filePath().getAbsolutePath();
             // Environment.getExternalStorageDirectory() + File.separator + CustomerDetailsActivity.FOLDER_NAME;
-            File file ;
+            File file;
             file = new File(filePath, fileName);
             fos = new FileOutputStream(file);
             workbook.write(fos);
@@ -332,21 +340,21 @@ public class ExportDatabaseCSVTask {
         rowB = firstSheet.createRow(2);
         rows.add(rowB);
         Map<String, List<EMIBean>> dateByEmiBean = CustomerDetailsActivity.getEMiByDate(customer);
-        for (int i=0;i<dateByEmiBean.size();i++) {
-            rowB = firstSheet.createRow(3+i);
+        for (int i = 0; i < dateByEmiBean.size(); i++) {
+            rowB = firstSheet.createRow(3 + i);
             rows.add(rowB);
         }
 
         rows.get(2).createCell(0).setCellValue(new HSSFRichTextString(""));
-        for (int i=0;i<dateByEmiBean.size();i++) {
+        for (int i = 0; i < dateByEmiBean.size(); i++) {
             Object firstKey = dateByEmiBean.keySet().toArray()[i];
-            rows.get(3+i).createCell(0).setCellValue(new HSSFRichTextString(String.valueOf(firstKey)));
+            rows.get(3 + i).createCell(0).setCellValue(new HSSFRichTextString(String.valueOf(firstKey)));
 
             double totalAmount = 0.0;
-            for (int col=0;col<dateByEmiBean.get(firstKey).size();col++) {
+            for (int col = 0; col < dateByEmiBean.get(firstKey).size(); col++) {
                 totalAmount = totalAmount + dateByEmiBean.get(firstKey).get(col).getAmount();
             }
-            rows.get(3+i).createCell(1).setCellValue(new HSSFRichTextString(String.valueOf(totalAmount)));
+            rows.get(3 + i).createCell(1).setCellValue(new HSSFRichTextString(String.valueOf(totalAmount)));
 //            if (dateByEmiBean.get(firstKey).size()>1) {
 //                rows.get(3 + i).createCell(2).setCellValue(new HSSFRichTextString(" "));
 //                for (int col = 0; col < dateByEmiBean.get(firstKey).size(); col++) {
@@ -359,7 +367,7 @@ public class ExportDatabaseCSVTask {
         String fileName = customer.getName().replace(" ", "") + customer.getCustomerId() + "_Finance" + ".xls";
         try {
             String filePath = filePath().getAbsolutePath(); // Environment.getExternalStorageDirectory() + File.separator + CustomerDetailsActivity.FOLDER_NAME;
-            File file ;
+            File file;
             file = new File(filePath, fileName);
             fos = new FileOutputStream(file);
             workbook.write(fos);
@@ -451,7 +459,7 @@ public class ExportDatabaseCSVTask {
         String mFilePath = inputFile.getAbsolutePath();
         Intent intent = new Intent(Intent.ACTION_VIEW);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            File file=new File(mFilePath);
+            File file = new File(mFilePath);
             Uri uri = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", file);
             intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(uri);
@@ -504,17 +512,17 @@ public class ExportDatabaseCSVTask {
         my_table.setWidthPercentage(100);
         PdfPCell table_cell;
         //Loop through rows.
-        while(rowIterator.hasNext()) {
+        while (rowIterator.hasNext()) {
             Row row = rowIterator.next();
             Iterator<Cell> cellIterator = row.cellIterator();
-            while(cellIterator.hasNext()) {
+            while (cellIterator.hasNext()) {
                 Cell cell = cellIterator.next(); //Fetch CELL
-                switch(cell.getCellType()) { //Identify CELL type
+                switch (cell.getCellType()) { //Identify CELL type
                     //you need to add more code here based on
                     //your requirement / transformations
                     case Cell.CELL_TYPE_STRING:
                         //Push the data from Excel to PDF Cell
-                        table_cell=new PdfPCell(new Phrase(cell.getStringCellValue()));
+                        table_cell = new PdfPCell(new Phrase(cell.getStringCellValue()));
                         //feel free to move the code below to suit to your needs
                         my_table.addCell(table_cell);
                         break;
@@ -536,7 +544,7 @@ public class ExportDatabaseCSVTask {
         String mFilePath = inputFile.getAbsolutePath();
         Intent intent = new Intent(Intent.ACTION_VIEW);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            File file=new File(mFilePath);
+            File file = new File(mFilePath);
             Uri uri = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", file);
             intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(uri);
