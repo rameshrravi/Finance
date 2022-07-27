@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rowView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_toStartOf="@+id/edit_amount_layout"
+            android:layout_centerVertical="true">
+            <TextView android:id="@+id/amount_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="50000.00"/>
+            <TextView android:id="@+id/time_textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="09:15 pm"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/edit_amount_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+            <ImageButton android:id="@+id/edit_amount_button"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/edit"
+                android:tint="@color/cardview_dark_background"
+                android:backgroundTint="@android:color/transparent"
+                android:adjustViewBounds="true"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:layout_marginStart="-2dip"
+                android:layout_marginEnd="-5dip"
+                android:layout_marginTop="-7dip"
+                android:layout_marginBottom="-5dip"/>
+            <ImageButton android:id="@+id/delete_amount_button"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/delete_button"
+                android:tint="@color/cardview_dark_background"
+                android:backgroundTint="@android:color/transparent"
+                android:adjustViewBounds="true"
+                android:padding="15dp"
+                android:scaleType="centerInside"
+                android:layout_marginStart="-2dip"
+                android:layout_marginEnd="-5dip"
+                android:layout_marginTop="-7dip"
+                android:layout_marginBottom="-5dip"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

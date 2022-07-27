@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/edit_button"
+        android:title="Edit"
+        app:showAsAction="never"
+        android:icon="@drawable/share" />
+    <item
+        android:id="@+id/edit_report_button"
+        android:title="Edit Report"
+        app:showAsAction="never"
+        android:icon="@drawable/share" />
+    <item
+        android:id="@+id/message_button"
+        android:title="Message"
+        app:showAsAction="never"
+        android:icon="@drawable/share" />
+    <item
+        android:id="@+id/share_button"
+        android:title="Export"
+        app:showAsAction="never"
+        android:icon="@drawable/share" />
+    <item
+        android:id="@+id/delete_button"
+        android:title="Delete"
+        app:showAsAction="never"
+        android:icon="@drawable/delete_button" />
+
+</menu>

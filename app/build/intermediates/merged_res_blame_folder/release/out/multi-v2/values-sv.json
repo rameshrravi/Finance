@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.psr.financial.app-mergeReleaseResources-17:/values-sv/values-sv.xml",
+            "map": [
+                {
+                    "source": "/Users/ramachandran.nataraj/.gradle/caches/transforms-3/f6a7529c4962bb969b08f6a9c1da2d13/transformed/appcompat-1.0.0/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,314,425,510,612,725,801,877,970,1065,1161,1255,1358,1453,1550,1648,1744,1837,1917,2023,2123,2219,2324,2426,2528,2682,2784",
+                        "endColumns": "105,102,110,84,101,112,75,75,92,94,95,93,102,94,96,97,95,92,79,105,99,95,104,101,101,153,101,78",
+                        "endOffsets": "206,309,420,505,607,720,796,872,965,1060,1156,1250,1353,1448,1545,1643,1739,1832,1912,2018,2118,2214,2319,2421,2523,2677,2779,2858"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,55",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,314,425,510,612,725,801,877,970,1065,1161,1255,1358,1453,1550,1648,1744,1837,1917,2023,2123,2219,2324,2426,2528,2682,6453",
+                        "endColumns": "105,102,110,84,101,112,75,75,92,94,95,93,102,94,96,97,95,92,79,105,99,95,104,101,101,153,101,78",
+                        "endOffsets": "206,309,420,505,607,720,796,872,965,1060,1156,1250,1353,1448,1545,1643,1739,1832,1912,2018,2118,2214,2319,2421,2523,2677,2779,6527"
+                    }
+                },
+                {
+                    "source": "/Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/res/values-sv/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "206",
+                        "endOffsets": "453"
+                    },
+                    "to": {
+                        "startLines": "38",
+                        "startColumns": "4",
+                        "startOffsets": "4064",
+                        "endColumns": "206",
+                        "endOffsets": "4266"
+                    }
+                },
+                {
+                    "source": "/Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/res/values-sv/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,350,539,664,772,972,1095,1244,1373,1580,1686,1879,2005,2218,2400,2492,2581",
+                        "endColumns": "104,188,124,107,199,122,148,128,206,105,192,125,212,181,91,88,103",
+                        "endOffsets": "349,538,663,771,971,1094,1243,1372,1579,1685,1878,2004,2217,2399,2491,2580,2684"
+                    },
+                    "to": {
+                        "startLines": "30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2912,3021,3210,3339,3451,3651,3778,3931,4271,4478,4588,4781,4911,5124,5310,5406,5499",
+                        "endColumns": "108,188,128,111,199,126,152,132,206,109,192,129,212,185,95,92,107",
+                        "endOffsets": "3016,3205,3334,3446,3646,3773,3926,4059,4473,4583,4776,4906,5119,5305,5401,5494,5602"
+                    }
+                },
+                {
+                    "source": "/Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "56",
+                        "startColumns": "4",
+                        "startOffsets": "6532",
+                        "endColumns": "100",
+                        "endOffsets": "6628"
+                    }
+                },
+                {
+                    "source": "/Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/res/values-sv/values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,183,269,390,529,659,788,924",
+                        "endColumns": "127,85,120,138,129,128,135,104",
+                        "endOffsets": "178,264,385,524,654,783,919,1024"
+                    },
+                    "to": {
+                        "startLines": "29,48,49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "2784,5607,5693,5814,5953,6083,6212,6348",
+                        "endColumns": "127,85,120,138,129,128,135,104",
+                        "endOffsets": "2907,5688,5809,5948,6078,6207,6343,6448"
+                    }
+                }
+            ]
+        }
+    ]
+}

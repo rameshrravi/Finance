@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:minHeight="60dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView android:id="@+id/title_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:layout_centerVertical="true"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_toLeftOf="@+id/right_layout"/>
+
+            <LinearLayout android:id="@+id/right_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true">
+                <ImageButton android:id="@+id/edit_title_button"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/edit"
+                    android:tint="@color/cardview_dark_background"
+                    android:backgroundTint="@android:color/transparent"
+                    android:adjustViewBounds="true"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:layout_marginStart="-2dip"
+                    android:layout_marginEnd="-5dip"
+                    android:layout_marginTop="-7dip"
+                    android:layout_marginBottom="-5dip"/>
+                <ImageButton android:id="@+id/delete_title_button"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/delete_button"
+                    android:tint="@color/cardview_dark_background"
+                    android:backgroundTint="@android:color/transparent"
+                    android:adjustViewBounds="true"
+                    android:padding="15dp"
+                    android:scaleType="centerInside"
+                    android:layout_marginStart="-2dip"
+                    android:layout_marginEnd="-5dip"
+                    android:layout_marginTop="-7dip"
+                    android:layout_marginBottom="-5dip"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:id="@+id/total_customer_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Total No.of Customer : 10"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:textSize="13sp"
+            android:textColor="@android:color/holo_green_dark"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Received Amount"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/darker_gray"/>
+                <TextView android:id="@+id/received_payment_textView"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="5000"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/darker_gray"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingEnd="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Balance Amount"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="13sp"
+                    android:textAlignment="textEnd"
+                    android:alpha="0.7"
+                    android:textColor="@color/colorPrimaryDark"/>
+                <TextView android:id="@+id/balance_payment_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="5000"
+                    android:textAlignment="textEnd"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="13sp"
+                    android:alpha="0.7"
+                    android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

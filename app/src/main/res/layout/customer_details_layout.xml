@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f3f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout android:id="@+id/move_customer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/white">
+            <Button
+                android:id="@+id/previous_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:background="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:layout_marginStart="-5dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:textSize="18dp"
+                android:text="Previous"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_blue_dark"
+                app:cornerRadius="2dp"
+                app:iconPadding="0dp"
+                tools:ignore="MissingPrefix" />
+            <Button
+                android:id="@+id/next_button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:background="@android:color/white"
+                android:backgroundTint="@android:color/white"
+                android:layout_marginEnd="-10dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:textSize="18dp"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@android:color/holo_orange_dark"
+                app:cornerRadius="2dp"
+                app:iconPadding="0dp"
+                tools:ignore="MissingPrefix" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="10dp">
+            <LinearLayout android:id="@+id/phone_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginTop="-10dp"
+                android:layout_marginEnd="-10dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true">
+                <TextView android:id="@+id/phone_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9677682787"
+                    android:textSize="13sp"/>
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/phone_call"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView android:id="@+id/name_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ramachandran"
+                    android:textSize="13sp"/>
+                <TextView android:id="@+id/place_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salem (Attur)"
+                    android:textSize="12sp"/>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Amount :"
+                            android:textSize="13sp"
+                            android:textStyle="bold"/>
+                        <TextView android:id="@+id/amount_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="60000"
+                            android:textSize="13sp"
+                            android:layout_marginStart="5dp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="/"
+                            android:textSize="13sp"
+                            android:layout_marginStart="5dp"
+                            android:textStyle="bold"/>
+                        <TextView android:id="@+id/created_on_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Created On"
+                            android:textSize="13sp"
+                            android:layout_marginStart="5dp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                    <LinearLayout android:layout_alignParentEnd="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp">
+                        <TextView android:id="@+id/collect_by_textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Weekly"
+                            android:textSize="13sp"
+                            android:layout_marginStart="5dp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView android:id="@+id/received_amount_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Received : 10000"
+                        android:textSize="12sp"/>
+                    <TextView android:id="@+id/balance_amount_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Balance : 50000"
+                        android:textSize="12sp"
+                        android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+
+                <TextView android:id="@+id/last_payment_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Last Payment : 5000 on 12/12/2012 at 12:30 am"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="13sp"
+                    android:textColor="@android:color/holo_blue_dark"/>
+                <TextView android:id="@+id/completed_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="13sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/holo_green_dark"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="25dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:weightSum="1">
+
+            <RadioGroup android:id="@+id/collection_by_radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/regular_radioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="Regular"
+                    android:checked="false"
+                    android:textSize="18dp" />
+
+                <RadioButton android:id="@+id/interest_radioButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Interest"
+                    android:checked="false"
+                    android:textSize="18dp"/>
+            </RadioGroup>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/amount_text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:errorEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/amount_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Amount"
+                    android:layout_marginTop="5dp"
+                    android:inputType="numberDecimal"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/collect_date_text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="5dp"
+                        app:errorEnabled="true">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/date_editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:hint="Date"
+                            android:maxLength="10"
+                            android:layout_marginTop="5dp"
+                            android:inputType="date"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageButton android:id="@+id/calender_button"
+                        android:layout_width="50dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/calendar"
+                        android:layout_alignParentEnd="true"
+                        android:backgroundTint="@android:color/transparent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside"/>
+                </RelativeLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/collect_time_text_input_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:layout_marginStart="5dp"
+                    app:errorEnabled="true">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/time_editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Time"
+                        android:layout_marginTop="5dp"
+                        android:maxLength="10"
+                        android:inputType="none"
+                        android:focusable="false"
+                        android:drawableRight="@drawable/clock"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/save_emi_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="50dp">
+                <Button
+                    android:id="@+id/save_emi_button"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/colorPrimaryDark"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="Save"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    app:cornerRadius="2dp"
+                    app:iconPadding="0dp"
+                    android:layout_marginEnd="10dp"
+                    tools:ignore="MissingPrefix" />
+                <Button
+                    android:id="@+id/new_emi_button"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:backgroundTint="@color/cardview_dark_background"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    android:text="Reset"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    app:cornerRadius="2dp"
+                    app:iconPadding="0dp"
+                    android:layout_marginStart="0dp"
+                    tools:ignore="MissingPrefix" />
+            </LinearLayout>
+            <Button android:id="@+id/update_emi_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimaryDark"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                app:cornerRadius="2dp"
+                app:iconPadding="0dp"
+                tools:ignore="MissingPrefix" />
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+ <!--   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/save_emi_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimaryDark"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="save"
+            android:textColor="#ffffff"
+            app:cornerRadius="2dp"
+            app:iconPadding="0dp"
+            tools:ignore="MissingPrefix" />
+    </RelativeLayout>-->
+</RelativeLayout>

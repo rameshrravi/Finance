@@ -1,0 +1,442 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.psr.financial"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:6:5-81
+11-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+12-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:7:5-81
+12-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:8:5-80
+13-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:9:5-69
+14-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:9:22-66
+15    <uses-permission android:name="android.permission.READ_CONTACTS" />
+15-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:11:5-71
+15-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:11:22-69
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:12:5-74
+16-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:12:22-72
+17    <!-- Step 1: Add the following permission to the app -->
+18    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+18-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:15:5-72
+18-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:15:22-69
+19
+20    <!-- Step 2: This permission is depreciated in Android P -->
+21    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+21-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:18:5-74
+21-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:18:22-71
+22
+23    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+24    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:5-79
+25-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:22-76
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:5-67
+26-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:22-64
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:5-68
+27-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:22-65
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+29
+30    <application
+30-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:20:5-147:19
+31        android:allowBackup="true"
+31-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:21:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+33        android:debuggable="true"
+34        android:icon="@drawable/psrlogo"
+34-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:22:9-41
+35        android:label="@string/app_name"
+35-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:23:9-41
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:24:9-54
+37        android:supportsRtl="true"
+37-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:25:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:26:9-40
+40        <activity
+40-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:28:9-36:20
+41            android:name="com.psr.financial.PhoneNumberActivity"
+41-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:29:13-65
+42            android:label="@string/app_name"
+42-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:30:13-45
+43            android:theme="@style/AppTheme.NoActionBar" >
+43-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:31:13-56
+44
+45            <!--
+46            <intent-filter>
+47                <action android:name="android.intent.action.MAIN" />
+48                <category android:name="android.intent.category.LAUNCHER" />
+49            </intent-filter>
+50            -->
+51        </activity>
+52        <activity
+52-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:37:9-41:20
+53            android:name="com.psr.financial.OtpVerificationActivity"
+53-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:38:13-69
+54            android:label="@string/app_name"
+54-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:39:13-45
+55            android:theme="@style/AppTheme.NoActionBar" >
+55-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:40:13-56
+56        </activity>
+57        <activity
+57-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:42:9-51:20
+58            android:name="com.psr.financial.SplashActivity"
+58-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:43:13-60
+59            android:exported="true"
+59-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:46:13-36
+60            android:label="@string/app_name"
+60-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:44:13-45
+61            android:theme="@style/AppTheme.NoActionBar" >
+61-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:45:13-56
+62            <intent-filter>
+62-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:47:13-50:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:48:17-69
+63-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:48:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:49:17-77
+65-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:49:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:52:9-56:20
+69            android:name="com.psr.financial.TitleActivity"
+69-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:53:13-59
+70            android:label="@string/app_name"
+70-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:54:13-45
+71            android:theme="@style/AppTheme.NoActionBar" >
+71-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:55:13-56
+72        </activity>
+73        <activity
+73-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:57:9-72:20
+74            android:name="com.psr.financial.MainActivity"
+74-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:58:13-58
+75            android:exported="true"
+75-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:62:13-36
+76            android:label="Customers"
+76-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:59:13-38
+77            android:parentActivityName="com.psr.financial.TitleActivity"
+77-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:60:13-73
+78            android:theme="@style/AppTheme" >
+78-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:61:13-44
+79            <meta-data
+79-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+80                android:name="android.support.PARENT_ACTIVITY"
+80-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+81                android:value="com.psr.financial.TitleActivity" />
+81-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+82            <meta-data
+82-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:66:13-68:54
+83                android:name="android.app.searchable"
+83-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:67:17-54
+84                android:resource="@xml/searchable" />
+84-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:68:17-51
+85
+86            <intent-filter>
+86-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:69:13-71:29
+87                <action android:name="android.intent.action.SEARCH" />
+87-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:70:17-71
+87-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:70:25-68
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:73:9-83:20
+91            android:name="com.psr.financial.CustomerDetailsActivity"
+91-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:74:13-69
+92            android:isScrollContainer="true"
+92-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:79:13-45
+93            android:label="Customer Details"
+93-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:75:13-45
+94            android:parentActivityName="com.psr.financial.MainActivity"
+94-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:77:13-72
+95            android:theme="@style/AppTheme"
+95-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:76:13-44
+96            android:windowSoftInputMode="adjustResize|stateHidden" >
+96-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:78:13-67
+97            <meta-data
+97-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+98                android:name="android.support.PARENT_ACTIVITY"
+98-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+99                android:value="com.psr.financial.MainActivity" />
+99-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+100        </activity>
+101        <activity
+101-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:84:9-94:20
+102            android:name="com.psr.financial.AddNewCustomer"
+102-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:85:13-60
+103            android:isScrollContainer="true"
+103-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:90:13-45
+104            android:label="Add Customer"
+104-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:86:13-41
+105            android:parentActivityName="com.psr.financial.MainActivity"
+105-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:88:13-72
+106            android:theme="@style/AppTheme"
+106-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:87:13-44
+107            android:windowSoftInputMode="adjustResize|stateHidden" >
+107-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:89:13-67
+108            <meta-data
+108-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+109                android:name="android.support.PARENT_ACTIVITY"
+109-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+110                android:value="com.psr.financial.MainActivity" />
+110-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+111        </activity>
+112        <activity
+112-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:95:9-105:20
+113            android:name="com.psr.financial.CustomerReportActivity"
+113-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:96:13-68
+114            android:isScrollContainer="true"
+114-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:101:13-45
+115            android:label="Customer Report"
+115-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:97:13-44
+116            android:parentActivityName="com.psr.financial.CustomerDetailsActivity"
+116-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:99:13-83
+117            android:theme="@style/AppTheme"
+117-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:98:13-44
+118            android:windowSoftInputMode="adjustResize|stateHidden" >
+118-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:100:13-67
+119            <meta-data
+119-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+120                android:name="android.support.PARENT_ACTIVITY"
+120-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+121                android:value="com.psr.financial.CustomerDetailsActivity" />
+121-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+122        </activity>
+123        <activity
+123-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:107:9-117:20
+124            android:name="com.psr.financial.WebviewLayout"
+124-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:108:13-59
+125            android:isScrollContainer="true"
+125-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:113:13-45
+126            android:label="Excel File"
+126-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:109:13-39
+127            android:parentActivityName="com.psr.financial.MainActivity"
+127-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:111:13-72
+128            android:theme="@style/AppTheme"
+128-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:110:13-44
+129            android:windowSoftInputMode="adjustResize|stateHidden" >
+129-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:112:13-67
+130            <meta-data
+130-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+131                android:name="android.support.PARENT_ACTIVITY"
+131-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+132                android:value="com.psr.financial.MainActivity" />
+132-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+133        </activity>
+134
+135        <provider
+136            android:name="com.psr.financial.GenericFileProvider"
+136-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:120:13-65
+137            android:authorities="com.psr.financial.provider"
+137-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:121:13-60
+138            android:exported="false"
+138-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:122:13-37
+139            android:grantUriPermissions="true" >
+139-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:123:13-47
+140            <meta-data
+140-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:124:13-126:57
+141                android:name="android.support.FILE_PROVIDER_PATHS"
+141-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:125:17-67
+142                android:resource="@xml/provider_paths" />
+142-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:126:17-55
+143        </provider>
+144
+145        <activity
+145-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:129:9-139:20
+146            android:name="com.psr.financial.PendingCustomersActivity"
+146-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:130:13-70
+147            android:isScrollContainer="true"
+147-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:135:13-45
+148            android:label="Customer Details"
+148-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:131:13-45
+149            android:parentActivityName="com.psr.financial.MainActivity"
+149-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:133:13-72
+150            android:theme="@style/AppTheme"
+150-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:132:13-44
+151            android:windowSoftInputMode="adjustResize|stateHidden" >
+151-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:134:13-67
+152            <meta-data
+152-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+153                android:name="android.support.PARENT_ACTIVITY"
+153-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+154                android:value="com.psr.financial.MainActivity" />
+154-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+155        </activity>
+156
+157        <receiver
+157-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:141:9-146:20
+158            android:name="com.psr.financial.Utility.SmsReceiver"
+158-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:141:19-71
+159            android:exported="true" >
+159-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:142:13-36
+160            <intent-filter>
+160-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:143:13-145:29
+161                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+161-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:144:17-81
+161-->/Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:144:25-79
+162            </intent-filter>
+163        </receiver>
+164
+165        <service
+165-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:17:9-23:19
+166            android:name="com.google.firebase.components.ComponentDiscoveryService"
+166-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:18:13-84
+167            android:directBootAware="true"
+167-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+168            android:exported="false" >
+168-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:19:13-37
+169            <meta-data
+169-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:20:13-22:85
+170                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+170-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:21:17-111
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:22:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:36:13-38:85
+173                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+173-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:37:17-109
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:38:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:16:13-18:85
+176                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+176-->[com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:17:17-115
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:18:17-82
+178            <meta-data
+178-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+179                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+179-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+182                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+182-->[com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+184        </service>
+185
+186        <activity
+186-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:24:9-31:50
+187            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+187-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:25:13-85
+188            android:excludeFromRecents="true"
+188-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:26:13-46
+189            android:exported="true"
+189-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:27:13-36
+190            android:launchMode="singleTask"
+190-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:28:13-44
+191            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+191-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:29:13-102
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:30:13-72
+193        <activity
+193-->[com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+194            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+194-->[com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+197
+198        <provider
+198-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+199            android:name="com.google.firebase.provider.FirebaseInitProvider"
+199-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+200            android:authorities="com.psr.financial.firebaseinitprovider"
+200-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+201            android:directBootAware="true"
+201-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+202            android:exported="false"
+202-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+203            android:initOrder="100" />
+203-->[com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+204
+205        <receiver
+205-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+206            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+206-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+208            android:exported="false" >
+208-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+209        </receiver>
+210
+211        <service
+211-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+212            android:name="com.google.android.gms.measurement.AppMeasurementService"
+212-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+213            android:enabled="true"
+213-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+214            android:exported="false" />
+214-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+215        <service
+215-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+216            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+216-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+217            android:enabled="true"
+217-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+219            android:permission="android.permission.BIND_JOB_SERVICE" />
+219-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+224
+225        <service
+225-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:29:9-35:19
+226            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+226-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:30:13-103
+227            android:exported="false" >
+227-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:31:13-37
+228            <meta-data
+228-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:32:13-34:39
+229                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+229-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:33:17-94
+230                android:value="cct" />
+230-->[com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:34:17-36
+231        </service>
+232        <service
+232-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:26:9-30:19
+233            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+233-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:27:13-117
+234            android:exported="false"
+234-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:28:13-37
+235            android:permission="android.permission.BIND_JOB_SERVICE" >
+235-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:29:13-69
+236        </service>
+237
+238        <receiver
+238-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:32:9-34:40
+239            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+239-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:33:13-132
+240            android:exported="false" />
+240-->[com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:34:13-37
+241    </application>
+242
+243</manifest>

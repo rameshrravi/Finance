@@ -1,0 +1,715 @@
+-- Merging decision tree log ---
+provider#com.psr.financial.GenericFileProvider
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:119:9-127:20
+	android:grantUriPermissions
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:123:13-47
+	android:authorities
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:121:13-60
+	android:exported
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:122:13-37
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:120:13-65
+manifest
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/58e6c5c143bfb51e246aacde4ff6d7f9/transformed/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8c47a556a19f12f8d48a89a4940070ba/transformed/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f6a7529c4962bb969b08f6a9c1da2d13/transformed/appcompat-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/79d919d5403693d436b11ff7bd756573/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/399b4f164258cd84409fcbc68723daab/transformed/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7bfbd3b4e3246ba8ddebe00dfa10a221/transformed/jetified-firebase-core-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ff646a7aed501928b6a7bd657a591811/transformed/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ba26383f1e95f6123e374e3c0770c158/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7886cbcee2093c1f8d74f156f3135a85/transformed/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7e0666469556dce019192f78da12ae77/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c7e90301df87bdb0b1cd7c2692567b4f/transformed/jetified-play-services-measurement-sdk-17.5.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/261c75dd1cf2bd3458ba345412ac033d/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/9e234f9ed46697f0f4a903efdedb2a3f/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/51301f809f23d5232fba945a5671c221/transformed/jetified-play-services-measurement-base-17.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/daf758729dbba9dbde039ab367eb3fb1/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/404b01962c6b5ef4761c3817907afbfb/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a4ff887c690c2bad1e9a0170304b6edf/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/08dd4fcf1988bdb47956728dd4f0a196/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/5c937eb90e173e5e1cbabb8394171f72/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/fc0616ac7e88f67659e0075f83c186fd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/dc6d14286a2510a90bcb47155ed75240/transformed/vectordrawable-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a4cc04e69ee34aa350e41e489cb293b6/transformed/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/fee669bc98e0846ad176b488cfba28b8/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/31a3a15a046b259cf87490b84cde2088/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/3497dc4c9c8d553d930b7a66463bd929/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f68f839928d536af5fe167b91f2042ab/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f0f3049bbc5370d7a3736a616a629544/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d35bc7b1c82f89200fcdfedfa24b6b00/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/298e88a83c61a5adfca1a2f23557a7c5/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/72839e692e1b815653d026fb178e235a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/e676475b1533b8639091a42a12e8d282/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/466ac6cc9aa509b68d02ed3c82561aeb/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c32f9a2c72afdf4a99732fd186807f3a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7cee2f032e5bfd4070d28bfcab7f2a82/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b68890c6db300dfb961578a327cc2969/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/66140ed9c4cabdac3d79c79bfcf42a0c/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/244595507b51dd7bfe95a4448850f1a1/transformed/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/739256d50b929b4fc34439a1d5388361/transformed/jetified-firebase-encoders-json-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a5ca276cf069e14e5cee313fe8d31896/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/0ead377cedfbf6bf9dcd81c5f7d2b242/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f8337d38a7fd10eaba16b8b3b1f64023/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/45191c3582e0d89a8c3389ddb4d20e83/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/de2ca910e5422e40657da85380812ac7/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8b15672163dabb98a7b0d6e31e78e079/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f548739559c0ce3e6f13c0cf307cbb49/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/47055cba76db250eed695ea307c3e62f/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a8218cc52f5d553782e4f078b8b6de9f/transformed/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/cb02ed84d91bfdcbeb434d60147dc5bd/transformed/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+	package
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:1-149:12
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:8:22-77
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:9:5-69
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:9:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:10:5-86
+	tools:node
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:10:65-84
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:11:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:13:5-89
+	tools:node
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:13:68-87
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:13:22-67
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:15:5-72
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:22:5-72
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:22:5-72
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:15:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:18:5-74
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:23:5-74
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:23:5-74
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:18:22-71
+application
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:20:5-147:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/58e6c5c143bfb51e246aacde4ff6d7f9/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/58e6c5c143bfb51e246aacde4ff6d7f9/transformed/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8c47a556a19f12f8d48a89a4940070ba/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8c47a556a19f12f8d48a89a4940070ba/transformed/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7bfbd3b4e3246ba8ddebe00dfa10a221/transformed/jetified-firebase-core-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7bfbd3b4e3246ba8ddebe00dfa10a221/transformed/jetified-firebase-core-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ff646a7aed501928b6a7bd657a591811/transformed/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ff646a7aed501928b6a7bd657a591811/transformed/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ba26383f1e95f6123e374e3c0770c158/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ba26383f1e95f6123e374e3c0770c158/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7e0666469556dce019192f78da12ae77/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7e0666469556dce019192f78da12ae77/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c7e90301df87bdb0b1cd7c2692567b4f/transformed/jetified-play-services-measurement-sdk-17.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c7e90301df87bdb0b1cd7c2692567b4f/transformed/jetified-play-services-measurement-sdk-17.5.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/261c75dd1cf2bd3458ba345412ac033d/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/261c75dd1cf2bd3458ba345412ac033d/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/9e234f9ed46697f0f4a903efdedb2a3f/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/9e234f9ed46697f0f4a903efdedb2a3f/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/51301f809f23d5232fba945a5671c221/transformed/jetified-play-services-measurement-base-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/51301f809f23d5232fba945a5671c221/transformed/jetified-play-services-measurement-base-17.5.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/daf758729dbba9dbde039ab367eb3fb1/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/daf758729dbba9dbde039ab367eb3fb1/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/466ac6cc9aa509b68d02ed3c82561aeb/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/466ac6cc9aa509b68d02ed3c82561aeb/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:25:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:23:9-41
+	android:roundIcon
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:24:9-54
+	android:icon
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:26:9-40
+activity#com.psr.financial.PhoneNumberActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:30:13-45
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:31:13-56
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:29:13-65
+activity#com.psr.financial.OtpVerificationActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:37:9-41:20
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:39:13-45
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:38:13-69
+activity#com.psr.financial.SplashActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:42:9-51:20
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:44:13-45
+	android:exported
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:46:13-36
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:43:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:47:13-50:29
+action#android.intent.action.MAIN
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:49:27-74
+activity#com.psr.financial.TitleActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:52:9-56:20
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:54:13-45
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:55:13-56
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:53:13-59
+activity#com.psr.financial.MainActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:57:9-72:20
+	android:parentActivityName
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:60:13-73
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:59:13-38
+	android:exported
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:62:13-36
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:58:13-58
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:63:13-65:67
+	android:value
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:65:17-64
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:64:17-63
+meta-data#android.app.searchable
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:66:13-68:54
+	android:resource
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:68:17-51
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:67:17-54
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:69:13-71:29
+action#android.intent.action.SEARCH
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:70:17-71
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:70:25-68
+activity#com.psr.financial.CustomerDetailsActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:73:9-83:20
+	android:parentActivityName
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:77:13-72
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:75:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:78:13-67
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:76:13-44
+	android:isScrollContainer
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:79:13-45
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:74:13-69
+activity#com.psr.financial.AddNewCustomer
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:84:9-94:20
+	android:parentActivityName
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:88:13-72
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:86:13-41
+	android:windowSoftInputMode
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:89:13-67
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:87:13-44
+	android:isScrollContainer
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:90:13-45
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:85:13-60
+activity#com.psr.financial.CustomerReportActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:95:9-105:20
+	android:parentActivityName
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:99:13-83
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:97:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:100:13-67
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:98:13-44
+	android:isScrollContainer
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:101:13-45
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:96:13-68
+activity#com.psr.financial.WebviewLayout
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:107:9-117:20
+	android:parentActivityName
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:111:13-72
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:109:13-39
+	android:windowSoftInputMode
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:112:13-67
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:110:13-44
+	android:isScrollContainer
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:113:13-45
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:108:13-59
+activity#com.psr.financial.PendingCustomersActivity
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:129:9-139:20
+	android:parentActivityName
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:133:13-72
+	android:label
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:131:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:134:13-67
+	android:theme
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:132:13-44
+	android:isScrollContainer
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:135:13-45
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:130:13-70
+receiver#com.psr.financial.Utility.SmsReceiver
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:141:9-146:20
+	android:exported
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:142:13-36
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:141:19-71
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:143:13-145:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:144:17-81
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:144:25-79
+uses-sdk
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/58e6c5c143bfb51e246aacde4ff6d7f9/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/58e6c5c143bfb51e246aacde4ff6d7f9/transformed/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8c47a556a19f12f8d48a89a4940070ba/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8c47a556a19f12f8d48a89a4940070ba/transformed/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f6a7529c4962bb969b08f6a9c1da2d13/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f6a7529c4962bb969b08f6a9c1da2d13/transformed/appcompat-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/79d919d5403693d436b11ff7bd756573/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/79d919d5403693d436b11ff7bd756573/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/399b4f164258cd84409fcbc68723daab/transformed/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/399b4f164258cd84409fcbc68723daab/transformed/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7bfbd3b4e3246ba8ddebe00dfa10a221/transformed/jetified-firebase-core-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7bfbd3b4e3246ba8ddebe00dfa10a221/transformed/jetified-firebase-core-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ff646a7aed501928b6a7bd657a591811/transformed/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ff646a7aed501928b6a7bd657a591811/transformed/jetified-firebase-analytics-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.biometric:biometric:1.0.0-alpha04] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d04da2abef881d0980306e29be53e370/transformed/biometric-1.0.0-alpha04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ba26383f1e95f6123e374e3c0770c158/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/ba26383f1e95f6123e374e3c0770c158/transformed/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7886cbcee2093c1f8d74f156f3135a85/transformed/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7886cbcee2093c1f8d74f156f3135a85/transformed/jetified-firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7e0666469556dce019192f78da12ae77/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7e0666469556dce019192f78da12ae77/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c7e90301df87bdb0b1cd7c2692567b4f/transformed/jetified-play-services-measurement-sdk-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c7e90301df87bdb0b1cd7c2692567b4f/transformed/jetified-play-services-measurement-sdk-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/261c75dd1cf2bd3458ba345412ac033d/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/261c75dd1cf2bd3458ba345412ac033d/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/9e234f9ed46697f0f4a903efdedb2a3f/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/9e234f9ed46697f0f4a903efdedb2a3f/transformed/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/51301f809f23d5232fba945a5671c221/transformed/jetified-play-services-measurement-base-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/51301f809f23d5232fba945a5671c221/transformed/jetified-play-services-measurement-base-17.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/daf758729dbba9dbde039ab367eb3fb1/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/daf758729dbba9dbde039ab367eb3fb1/transformed/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/404b01962c6b5ef4761c3817907afbfb/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/404b01962c6b5ef4761c3817907afbfb/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a4ff887c690c2bad1e9a0170304b6edf/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a4ff887c690c2bad1e9a0170304b6edf/transformed/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/08dd4fcf1988bdb47956728dd4f0a196/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/08dd4fcf1988bdb47956728dd4f0a196/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/5c937eb90e173e5e1cbabb8394171f72/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/5c937eb90e173e5e1cbabb8394171f72/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/fc0616ac7e88f67659e0075f83c186fd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/fc0616ac7e88f67659e0075f83c186fd/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/dc6d14286a2510a90bcb47155ed75240/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/dc6d14286a2510a90bcb47155ed75240/transformed/vectordrawable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a4cc04e69ee34aa350e41e489cb293b6/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a4cc04e69ee34aa350e41e489cb293b6/transformed/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/fee669bc98e0846ad176b488cfba28b8/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/fee669bc98e0846ad176b488cfba28b8/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/31a3a15a046b259cf87490b84cde2088/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/31a3a15a046b259cf87490b84cde2088/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/3497dc4c9c8d553d930b7a66463bd929/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/3497dc4c9c8d553d930b7a66463bd929/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f68f839928d536af5fe167b91f2042ab/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f68f839928d536af5fe167b91f2042ab/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f0f3049bbc5370d7a3736a616a629544/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f0f3049bbc5370d7a3736a616a629544/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d35bc7b1c82f89200fcdfedfa24b6b00/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d35bc7b1c82f89200fcdfedfa24b6b00/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/298e88a83c61a5adfca1a2f23557a7c5/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/298e88a83c61a5adfca1a2f23557a7c5/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/72839e692e1b815653d026fb178e235a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/72839e692e1b815653d026fb178e235a/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/e676475b1533b8639091a42a12e8d282/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/e676475b1533b8639091a42a12e8d282/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7867c040be0f8fa7b4739c5afca464ad/transformed/core-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/466ac6cc9aa509b68d02ed3c82561aeb/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/466ac6cc9aa509b68d02ed3c82561aeb/transformed/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c32f9a2c72afdf4a99732fd186807f3a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/c32f9a2c72afdf4a99732fd186807f3a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7cee2f032e5bfd4070d28bfcab7f2a82/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7cee2f032e5bfd4070d28bfcab7f2a82/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b68890c6db300dfb961578a327cc2969/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b68890c6db300dfb961578a327cc2969/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/66140ed9c4cabdac3d79c79bfcf42a0c/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/66140ed9c4cabdac3d79c79bfcf42a0c/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/244595507b51dd7bfe95a4448850f1a1/transformed/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/244595507b51dd7bfe95a4448850f1a1/transformed/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/739256d50b929b4fc34439a1d5388361/transformed/jetified-firebase-encoders-json-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/739256d50b929b4fc34439a1d5388361/transformed/jetified-firebase-encoders-json-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a5ca276cf069e14e5cee313fe8d31896/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a5ca276cf069e14e5cee313fe8d31896/transformed/lifecycle-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/0ead377cedfbf6bf9dcd81c5f7d2b242/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/0ead377cedfbf6bf9dcd81c5f7d2b242/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f8337d38a7fd10eaba16b8b3b1f64023/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f8337d38a7fd10eaba16b8b3b1f64023/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/45191c3582e0d89a8c3389ddb4d20e83/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/45191c3582e0d89a8c3389ddb4d20e83/transformed/lifecycle-viewmodel-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/de2ca910e5422e40657da85380812ac7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/de2ca910e5422e40657da85380812ac7/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8b15672163dabb98a7b0d6e31e78e079/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/8b15672163dabb98a7b0d6e31e78e079/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f548739559c0ce3e6f13c0cf307cbb49/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/f548739559c0ce3e6f13c0cf307cbb49/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/47055cba76db250eed695ea307c3e62f/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/47055cba76db250eed695ea307c3e62f/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a8218cc52f5d553782e4f078b8b6de9f/transformed/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/a8218cc52f5d553782e4f078b8b6de9f/transformed/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/cb02ed84d91bfdcbeb434d60147dc5bd/transformed/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/cb02ed84d91bfdcbeb434d60147dc5bd/transformed/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:124:13-126:57
+	android:resource
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:126:17-55
+	android:name
+		ADDED from /Users/ramachandran.nataraj/Documents/Finance-master/app/src/main/AndroidManifest.xml:125:17-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/399b4f164258cd84409fcbc68723daab/transformed/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/399b4f164258cd84409fcbc68723daab/transformed/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:19:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:18:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/b99b72d33b43b9542d542149a78d9842/transformed/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:21:17-111
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/179e4554dbd9f8ca0cf379df115042cc/transformed/jetified-firebase-auth-19.0.0/AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:16:13-18:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:18:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:17.2.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/91126c5659ba1ec13237d728692602f5/transformed/jetified-firebase-crashlytics-17.2.1/AndroidManifest.xml:17:17-115
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d9eef51f345693f40507290b501428e0/transformed/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/2fa89d204af7092469845eae4ba5d634/transformed/jetified-play-services-measurement-sdk-api-17.5.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/7b2c619a68099b9e9036f6c2e2a49e7b/transformed/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.3] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/afd5beb875e1ffa683bf286638475dd5/transformed/jetified-firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4bca0a8e30be41880c7fe96cd592ca42/transformed/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/4583f403de727c505bc7770fa7fd1589/transformed/jetified-play-services-measurement-impl-17.5.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.5.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/6b011e9c60be97a2a6c9b1d91eabb3c7/transformed/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/be9ce6bde254e28dffda9386c034761b/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.1] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/d28bd2421061d23828cedef01c9664a4/transformed/jetified-transport-backend-cct-2.3.1/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.4] /Users/ramachandran.nataraj/.gradle/caches/transforms-3/106d2bfc51a0c16ca3d2308a5f0dfcdb/transformed/jetified-transport-runtime-2.2.4/AndroidManifest.xml:33:13-132

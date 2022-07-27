@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <CheckBox android:id="@+id/all_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="All"/>
+    <CheckBox android:id="@+id/daily_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Daily"/>
+    <CheckBox android:id="@+id/weekly_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Weekly"/>
+    <CheckBox android:id="@+id/monthly_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Monthly"/>
+    <CheckBox android:id="@+id/interest_checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Interest"/>
+</LinearLayout>

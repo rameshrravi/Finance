@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OTP Verification"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"/>
+                <TextView android:id="@+id/phone_number_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SMS sent to +000000000000"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="14dp"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="40dp">
+                    <EditText android:id="@+id/otp_editText"
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textColorLink="@color/colorPrimaryDark"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:maxLines="1"
+                        android:textAlignment="center"
+                        android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="40dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/resend_button"
+                        android:layout_width="0dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:text="Resend Code"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:clickable="true"
+                        android:textColor="@color/colorAccent"
+                        android:textAllCaps="false"
+                        app:cornerRadius="2dp"
+                        app:iconPadding="0dp"
+                        android:layout_marginEnd="5dp"/>
+
+                    <TextView
+                        android:id="@+id/change_number_button"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        android:text="Change Number"
+                        android:clickable="true"
+                        android:textColor="@color/colorPrimary"
+                        android:gravity="center_vertical"
+                        android:textAllCaps="false"
+                        android:textSize="16dp"
+                        app:cornerRadius="2dp"
+                        app:iconPadding="0dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/confirm_otp_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorPrimary"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Verify"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:layout_margin="40dp"
+        app:cornerRadius="25dp"
+        app:iconPadding="0dp"
+        tools:ignore="MissingPrefix" />
+</RelativeLayout>

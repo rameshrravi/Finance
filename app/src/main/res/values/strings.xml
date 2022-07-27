@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PSR Finance</string>
+    <string name="action_settings">Settings</string>
+    <string name="version_name">V 1.0.1</string>
+    <integer name="version_code">1</integer>
+
+    <string-array name="collectBy">
+        <item>Collect By</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Interest</item>
+    </string-array>
+    <string-array name="collect">
+        <item>All</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Interest</item>
+    </string-array>
+    <string-array name="excelViewOption">
+        <item>View</item>
+        <item>Share</item>
+    </string-array>
+    <string-array name="exportImportOption">
+        <item>Export</item>
+        <item>Import</item>
+    </string-array>
+</resources>

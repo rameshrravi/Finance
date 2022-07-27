@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "143321300921",
+    "firebase_url": "https://finance-a620e.firebaseio.com",
+    "project_id": "finance-a620e",
+    "storage_bucket": "finance-a620e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143321300921:android:7ec227c6351125a6",
+        "android_client_info": {
+          "package_name": "com.psr.financial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143321300921-4bj59vb644avnh19prb8gp893vj1nde5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx0pkB-MnBi8yjN7djh2vGDTciYa0HR4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143321300921-4bj59vb644avnh19prb8gp893vj1nde5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

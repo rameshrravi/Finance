@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/search_button"-->
+        <!--android:title="search"-->
+        <!--app:showAsAction="always"-->
+        <!--android:icon="@android:drawable/ic_menu_search" />-->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/filter_button"
+        android:title="Filter"
+        app:showAsAction="always"
+        android:icon="@drawable/filter_16" />
+    <item
+        android:id="@+id/export_button"
+        android:title="Export"
+        app:showAsAction="never"
+        android:icon="@drawable/export_16" />
+    <item
+        android:id="@+id/custom_selection_button"
+        android:title="Export By Selection"
+        app:showAsAction="never"
+        android:icon="@drawable/checklist" />
+    <item
+        android:id="@+id/other_customer_button"
+        android:title="Today Collection Details"
+        app:showAsAction="never"
+        android:icon="@drawable/income" />
+</menu>

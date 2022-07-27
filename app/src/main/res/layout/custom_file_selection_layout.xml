@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout  android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <ImageButton android:id="@+id/excel_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/excel"
+            android:backgroundTint="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="Excel" >
+        </TextView>
+        </LinearLayout>
+    <LinearLayout  android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageButton android:id="@+id/pdf_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pdf"
+            android:backgroundTint="@android:color/transparent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="false"
+            android:text="Pdf" >
+        </TextView>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

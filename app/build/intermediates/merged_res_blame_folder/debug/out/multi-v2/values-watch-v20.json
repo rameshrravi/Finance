@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.psr.financial.app-mergeDebugResources-17:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/ramachandran.nataraj/.gradle/caches/transforms-3/f6a7529c4962bb969b08f6a9c1da2d13/transformed/appcompat-1.0.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

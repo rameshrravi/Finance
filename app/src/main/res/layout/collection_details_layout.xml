@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/collection_recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/collection_details_list_item"
+        android:background="#f3f3f3"
+        android:paddingTop="8dp"
+        android:clipToPadding="true"
+        android:layout_marginBottom="50dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout android:id="@+id/empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_empty_state"/>
+            <TextView android:id="@+id/empty_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Customers found"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4b4b4b"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView android:id="@+id/overAll_collection_amount_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:text="Today Collection : 0" />
+    </LinearLayout>
+</RelativeLayout>
